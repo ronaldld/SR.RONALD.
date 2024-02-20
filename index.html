@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+     <header>
+        <nav class="nav-bar1">
+            <div class="logo">
+                <h1>Fans do Henrique</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                   
+                    
+                </ul>
+                
+            </div>
+            
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+            </div>
+            
+                    </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projeto</a></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></a></li>
+
+                    
+                </ul>
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+
+            </div>
+            
+
+
+
+     </header>
+     <main>
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Fans do Henrique.</strong>
+                            <p>Mileny;
+                            <br>Bia Molambo;
+                            <br> Jurema vulgo micro-ondas;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>   
+        <div class="text">
+            <div class="text1">
+                <strong>
+                    <h4>Henrique</strong></h4>: como de praxe demostrar uma capacidade além do normal. Obtendo diversos discípulo e fans
+                   <br>  &nbsp;Por Exemplo:
+                    <br> &nbsp; Mileny; 
+                    <br> &nbsp; Bia Molanbo; 
+                    <br> &nbsp; Jurema vulgo micro-ondas; 
+            </div>
+        
+        </div> 
+
+              
+    
+    
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click', () => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+    
+     </main>
+    <script src="main.js"></script>
+</body>
+</html>
