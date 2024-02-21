@@ -9,6 +9,7 @@
 
  }
  .nav-bar1 { 
+  
     display: flex;
     justify-content:space-between ;
     padding: 1.5rem 6rem;
@@ -59,8 +60,12 @@
 
 }
 @media screen and (max-width: 730px) {
-   .nav-bar {
+   .nav-bar1 {
+      align-items: center;
       padding: 1.5rem;
+   }
+   .logo {
+      margin-left: 200px;
    }
    .nav-item {
       display: none;
@@ -98,18 +103,32 @@
       display: block;
       background-color: red;
    }
+   .content {
+      width: 10px;
+      height: 15px;
+      bottom: 300px;
+      margin-left: 50px;
+      display: flex;
+      align-items: center;
+      
+     
+   }
+
+   .container-enveloper {
+      position: relative;
+      margin-top: 30px;
+      margin-left: 100px;
+      display: flex;
+      align-items: center;
+   }
+   .text-title {
+      display: flex;
+      margin-left: 150px;
+      align-items: center;
+      font-size: medium;
+   }
   
-}
-.main-foto{
-   height: 520px;
-   width: 1280px;
-   border-radius: 20px;
-   overflow: hidden;
-   position: absolute;
-}
-.main-foto .foto {
-   height: 100%;
-   width: 100%;
- 
-   background-size: cover;
+
+
+  
 }
